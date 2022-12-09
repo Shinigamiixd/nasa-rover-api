@@ -15,6 +15,7 @@ async function getRovers(){
         let data = await curiosity_rawdata.json()
         rovers = data.photos
         let rover_container = document.createElement("div")
+        rover_container.classList = "rover_container"
 
         let rover_name = rovers[0].rover.name
         let rover_cameras = rovers[0].camera.name

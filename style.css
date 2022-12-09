@@ -6,20 +6,34 @@
 
 .rover_images{
     display: flex;
-    width: 90vw;
+    width: 100vw;
     flex-wrap: wrap;
     gap: 5px;
     margin: auto;
+    border-style: solid;
+    border-radius: 15px;
 }
 
 .rover_image_container{
     overflow: hidden;
     width: 300px;
     height: 300px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .el_img{
     display: block;
     width: 300px;
     height: 300px;
+}
+
+.rover_container{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 5px;
 }
